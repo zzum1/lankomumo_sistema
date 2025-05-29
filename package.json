@@ -1,5 +1,5 @@
 {
-  "name": "test_connection",
+  "name": "Lankomumo valdymo sistema",
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
