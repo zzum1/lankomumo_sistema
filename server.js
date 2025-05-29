@@ -35,10 +35,8 @@ app.post("/api/courses/register", async (req, res) => {
       "INSERT INTO users (vardas, pavarde, el_pastas) VALUES (?, ?, ?)",
       [vardas, pavarde, el_pastas]
     );
-    console.log(result)
     res.status(200).json({ id: result.insertId });
   } catch (error) {
-    console.log("error", error)
     res.status(500).json({ error });
   }
 });
